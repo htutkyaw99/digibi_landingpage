@@ -178,7 +178,7 @@ h4 {
   justify-content: space-between;
   padding: 3.2rem 2.4rem 6.4rem 2.4rem;
   min-height: 85rem;
-  background: url("images/Hero.png");
+  background: url("/images/Hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
