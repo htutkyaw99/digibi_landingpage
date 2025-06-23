@@ -501,7 +501,8 @@ h4 {
 
 .services-card-wrapper {
   margin-top: 4rem;
-  border-top: solid 1px var(--color-body);
+  /* border-top: solid 1px var(--color-body); */
+  border-top: solid 1px rgba(150, 159, 158, 0.2);
 }
 
 .services-card h2 {
@@ -509,7 +510,9 @@ h4 {
 }
 
 .services-card {
-  border-bottom: solid 1px var(--color-body);
+  /* border-bottom: solid 1px var(--color-body); */
+  border-bottom: solid 1px rgba(150, 159, 158, 0.2);
+
   padding: 4rem 0;
 }
 
