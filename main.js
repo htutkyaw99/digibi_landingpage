@@ -7,9 +7,11 @@ const mobile_navbar = document.querySelector("#mobile_nav");
 menu.addEventListener("click", () => {
   console.log("show menu");
   mobile_navbar.style.transform = "translateX(0)";
+  mobile_menu.style.transform = "rotate(180deg)";
 });
 
 mobile_menu.addEventListener("click", () => {
   console.log("hide menu");
   mobile_navbar.style.transform = "translateX(100%)";
+  mobile_menu.style.transform = "rotate(0deg)";
 });
